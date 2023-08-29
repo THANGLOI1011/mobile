@@ -1,0 +1,290 @@
+/* mobile */
+@media only screen and (max-width:739px) {
+    body,html{
+        width: fit-content;
+    }
+    .main-second-name button{
+        display: none;
+    }
+    .main-second-name a {
+        display: none;
+    }
+    .main-monday-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-monday-menu-item-img{
+        width: 100%;
+    }
+    .main-monday-menu-item {
+        width: 80%;
+        padding-bottom: 50px;
+    }
+    .main-monday-menu-item-price{
+        padding-top: 0;
+    }
+    .main-monday-menu-item p{
+    }
+    .main-last-name{
+        margin-bottom: 70px;
+        padding: 0;
+    }
+    .main-third-img-list img{
+        height: 400px;
+    }
+    .main-fourth p{
+        margin-left: 12%;
+    }
+
+
+
+
+
+
+
+
+
+}
+/* tablet and mobile */
+@media only screen and (max-width: 1023px){
+    
+    .header{
+        padding: 0;
+    }
+    .header-info{
+        display: none;
+    }
+    .header-item{
+        display: none;
+    }
+    .header-icon{
+        display: block;
+    }
+    .header-icon:checked ~ .header-item{
+        display: block;
+    }
+    .main-fourth-food-list-item,
+   .main-fourth-food-img img,
+   .main-fourth-food-img,
+   .main-first-img img,
+   .main-second-img img,
+   .main-monday-menu
+    {
+        padding: 0;
+    }
+    .navbar-book-btn{
+        display: none;
+    }
+    .header{
+        padding: 0;
+    }
+    .header-info{
+        display: none;
+    }
+    .header-item{
+        display: none;
+    }
+    .header-icon{
+        display: block;
+    }
+    .header-icon:checked ~ .header-item{
+        display: block;
+    }
+    .main-fourth-food-list-item,
+   .main-fourth-food-img img,
+   .main-fourth-food-img,
+   .main-first-img img,
+   .main-second-img img,
+   .main-monday-menu
+    {
+        padding: 0;
+    }
+    .navbar-book-btn{
+        display: none;
+    }
+   .left-row,
+   .right-row{
+    padding: 0 10px;
+   }
+   .main-monday-name h1{
+    padding-top: 0;
+   }
+   .main-monday-name{
+    padding: 60px 0;
+   }
+   .main-third-img{
+    padding: 0 10px;
+   }
+   .main-fourth-name{
+    padding-top: 0;
+    padding: 60px 0;
+   }
+   .main-fourth-food-list{
+    padding-right: 0;
+   }
+   .main-fourth-food{
+    padding: 0 10px;
+   }
+   .main-fourth-food-img img{
+    width: 93%;
+   }
+   .main-fourth p{
+    width: 384px;
+    margin-left: 25%;
+   }
+   #text-ali{
+    width: 384px;
+    margin-left: 25%;
+   }
+   .main-third-name img{
+    width: 10%;
+   }
+   .footer{
+    padding: 70px 10px;
+   }
+   .footer-list-2-item{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+   }
+   .footer-list-2-item span {
+    margin-left: 4px;
+   }
+   .footer-list-1{
+    width: 20%;
+   }
+   .footer-list-4{
+    width: 35%;
+   }
+   .footer-list-3{
+    width: 15%;
+   }
+   .footer-list-2{
+    overflow: unset;
+    width: 30%;
+   }
+   .footer-list-3-item{
+    padding: 0;
+   }
+   .main-fourth-food-list-item-info{
+    margin-bottom: 29px;
+   }
+}
+/* tablet */
+@media only screen and (min-width:740px) and (max-width:1023px) {
+    
+    .header{
+        padding: 0;
+    }
+    .header-info{
+        display: none;
+    }
+    .header-item{
+        display: none;
+    }
+    .header-icon{
+        display: block;
+    }
+    .header-icon:checked ~ .header-item{
+        display: block;
+    }
+    .main-fourth-food-list-item,
+   .main-fourth-food-img img,
+   .main-fourth-food-img,
+   .main-first-img img,
+   .main-second-img img,
+   .main-monday-menu
+    {
+        padding: 0;
+    }
+    .navbar-book-btn{
+        display: none;
+    }
+   .left-row,
+   .right-row{
+    padding: 0 10px;
+   }
+   .main-monday-name h1{
+    padding-top: 0;
+   }
+   .main-monday-name{
+    padding: 60px 0;
+   }
+   .main-third-img{
+    padding: 0 10px;
+   }
+   .main-fourth-name{
+    padding-top: 0;
+    padding: 60px 0;
+   }
+   .main-fourth-food-list{
+    padding-right: 0;
+   }
+   .main-fourth-food{
+    padding: 0 10px;
+   }
+   .main-fourth-food-img img{
+    width: 93%;
+   }
+   .main-fourth p{
+    width: 384px;
+    margin-left: 25%;
+   }
+   #text-ali{
+    width: 384px;
+    margin-left: 25%;
+   }
+   .main-third-name img{
+    width: 10%;
+   }
+   .footer{
+    padding: 70px 10px;
+   }
+   .footer-list-2-item{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+   }
+   .footer-list-2-item span {
+    margin-left: 4px;
+   }
+   .footer-list-1{
+    width: 20%;
+   }
+   .footer-list-4{
+    width: 35%;
+   }
+   .footer-list-3{
+    width: 15%;
+   }
+   .footer-list-2{
+    overflow: unset;
+    width: 30%;
+   }
+   .footer-list-3-item{
+    padding: 0;
+   }
+   .main-fourth-food-list-item-info{
+    margin-bottom: 29px;
+   }
+  
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
