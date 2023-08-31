@@ -2,12 +2,40 @@
 @media only screen and (max-width:739px) {
     body,html{
         width: fit-content;
+        position: relative;
     }
     .main-second-name button{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        height: 60px;
+        z-index: 4;
+        font-size: 12px;
+
+    }
+    .main-second-name a{
         display: none;
     }
-    .main-second-name a {
-        display: none;
+    .btn-seeroom button {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        height: 60px;
+        font-size: 12px;
+        z-index: 4;
+        background-color: #CBAA5D;
+        color: #fff;
+        border: none;
+    }
+    .btn-seeroom{
+        display: block;
+    }
+    .btn-seeroom button:hover {
+        background-color: #c78c40;
+        cursor: pointer;
+        
     }
     .main-monday-menu{
         display: flex;
@@ -34,8 +62,186 @@
         height: 400px;
     }
     .main-fourth p{
-        margin-left: 12%;
+        margin-left:0;
     }
+    #text-ali{
+        margin-right: 15%;
+        display: block;
+    }
+    .navbar-book-item{
+        display: none;
+    }
+    .navbar-book-item-one{
+        display: block;
+    }
+    .navbar-book{
+        justify-content: center;
+    }
+    .navbar-book-item span{
+        font-size: 16px;
+    }
+    .navbar-book-item i{
+        font-size: 22px;
+    }
+    .main-fourth-food-list-item-info-name h6{
+        width: 118px;
+    }
+    .footer-last p{
+        margin-bottom: 54px;
+    }
+    .footer-list-1 p{
+        font-size: 12px;
+        width: 300px;
+    }
+    .footer-list-2-item span{
+        font-size: 12px;
+        width: 300px;
+    }
+    .footer-list-3 a{
+        font-size: 12px;
+    }
+    .footer-list-4 p{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .footer{
+        display: grid;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .footer-list-4 h1{ 
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    .main-first-name span{
+        margin-right: 10px;
+    }
+    .footer-list-4{
+        width: 80%;
+    }
+    .main-fourth-food-list-item{
+        width: 80%;
+        margin: 0;
+        float: right;
+        display: block;
+    }
+    .main-fourth-food-img img{
+        width: 100%;
+    }.main-second-name span{
+        padding-left: 10px;
+    }
+    .main-monday-menu-item{
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .main-last-name p{
+        padding-top: 39px;
+    }
+    .footer-list-2{
+        padding-bottom: 5px;
+    }
+    .header-list-item-link:hover{
+        color: #CBAA5D;
+
+    }
+    .main-first-name button:hover,
+    .main-second-name button:hover{
+        background-color: #333333;
+    }
+    .main-monday-name p{
+        padding: 30px 10px;
+    }
+    /* font-size */
+    .navbar-name p {
+        font-size: 16px;
+    }
+    .navbar-name h1{
+        font-size: 39px;
+    }
+    .navbar-name button{
+        font-size: 10px;
+        width: 144px;
+        height: 43px;
+        border-radius: 2px;
+    }
+    .navbar-book{
+        width: 60%;
+        height: 138px;
+        bottom: -71px;
+    }
+    .header-logo img{
+        width:100px ;
+        height: 80%;
+    }
+    .header{
+        height: 62px;
+    }
+    .header-icon i{
+        font-size: 18px;
+    }
+    .header-list{
+        width: 212px;
+    }
+    .header-list-icon{
+        font-size: 16px;
+    }
+    .header-list-item-link{
+        font-size: 12px;
+    }
+    .navbar-book-item h2{
+        font-size: 14px;
+    }
+    .navbar-book-item span{
+        font-size: 12px;
+    }
+    .navbar-book-item i{
+        font-size: 18px;
+    }
+    .navbar-book-item:after{
+        height: 1px;
+    }
+    .main-last-name h1,
+    .main-third-name h1,
+    .main-fourth-name h1{
+        font-size: 20px;
+    }
+    .main-first-name h3,
+    .main-second-name h3,
+    .main-monday-name h1,
+    .main-monday-menu-item-name,
+    .main-fourth-food-list-item-info-name h6,
+    .footer-list-4 h1, .footer-list-3 h1, .footer-list-2 h1, .footer-list-1 h1{
+        font-size: 18px;
+    }
+    .main-first-name span,
+    .main-second-name span,
+    .main-monday-name p,
+    .main-monday-menu-item p,
+    .main-last-name p,
+    .main-third-name p,
+    .main-fourth p,
+    .main-fourth-food-list-item-info-name span,
+    .footer-last p
+    {
+        font-size: 12px;
+    }
+
+    .main-second-name i,
+    .main-monday-menu-item-price span
+    {
+        font-size: 16px;
+    }
+    .main-first-name button{
+        font-size: 12px;
+    }
+    .main-fourth-icon{
+        font-size: 40px;
+    }
+    .main-fourth-icon i{
+        padding-right: 0;
+    }
+   
 
 
 
@@ -126,16 +332,14 @@
    .main-fourth-food{
     padding: 0 10px;
    }
-   .main-fourth-food-img img{
-    width: 93%;
-   }
+   
    .main-fourth p{
     width: 384px;
-    margin-left: 25%;
+    margin: auto;
    }
    #text-ali{
     width: 384px;
-    margin-left: 25%;
+    margin: auto;
    }
    .main-third-name img{
     width: 10%;
@@ -151,19 +355,7 @@
    .footer-list-2-item span {
     margin-left: 4px;
    }
-   .footer-list-1{
-    width: 20%;
-   }
-   .footer-list-4{
-    width: 35%;
-   }
-   .footer-list-3{
-    width: 15%;
-   }
-   .footer-list-2{
-    overflow: unset;
-    width: 30%;
-   }
+   
    .footer-list-3-item{
     padding: 0;
    }
@@ -229,11 +421,11 @@
    }
    .main-fourth p{
     width: 384px;
-    margin-left: 25%;
+   
    }
    #text-ali{
     width: 384px;
-    margin-left: 25%;
+    margin: auto;
    }
    .main-third-name img{
     width: 10%;
@@ -268,6 +460,9 @@
    .main-fourth-food-list-item-info{
     margin-bottom: 29px;
    }
+   .main-first-name span{
+    padding-right: 10px;
+}
   
    
 
